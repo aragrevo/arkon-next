@@ -8,7 +8,7 @@ export const Header = () => {
     <header className='text-base py-6 w-full fixed top-0 left-0 bg-transparent transition-all shadow-sm'>
       <nav className='flex items-center max-w-5xl justify-between px-3 mx-auto'>
         <span>Arkon 🏦</span>
-        <ul className='hidden lg:flex'>
+        <ul className='hidden md:flex'>
           {menuItems.map(({path, label}) => (
             <ScrollLink
               className='text-base text-[#02073E] font-normal cursor-pointer leading-tight mr-12 last:mr-0 hover:text-primary transition-colors duration-500'
