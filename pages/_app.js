@@ -1,7 +1,16 @@
-import '../styles/globals.css'
+import {DM_Sans} from '@next/font/google';
+import '../styles/globals.css';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+const dm_sans = DM_Sans({
+  weight: ['400', '500', '700'],
+});
+
+function MyApp({Component, pageProps}) {
+  return (
+    <div className={dm_sans.className}>
+      <Component {...pageProps} />
+    </div>
+  );
 }
 
-export default MyApp
+export default MyApp;
