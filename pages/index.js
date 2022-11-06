@@ -1,11 +1,12 @@
 import {Layout} from '@components/ui';
-import {Banner, Services} from '@sections/index';
+import {Banner, CallToAction, Services} from '@sections/index';
 
 export default function Home() {
   return (
     <Layout>
       <Banner />
       <Services />
+      <CallToAction />
     </Layout>
   );
 }

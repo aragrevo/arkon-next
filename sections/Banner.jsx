@@ -9,8 +9,7 @@ export const Banner = () => {
             Arkon Arquitectura integral
           </h1>
           <p className='text-base text-text_secondary mb-5 md:max-w-md md:text-xl md:mb-8'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti ducimus, velit aspernatur unde dolore
-            doloremque, maxime, reiciendis adipisci q
+            Un mundo de soluciones prácticas y rápidas
           </p>
         </div>
         <div>
