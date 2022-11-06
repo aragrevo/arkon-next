@@ -1,4 +1,4 @@
-import {Header, Seo} from './';
+import {Footer, Header, Seo} from './';
 
 export const Layout = ({children}) => {
   return (
@@ -7,6 +7,7 @@ export const Layout = ({children}) => {
       <Header />
 
       <main>{children}</main>
+      <Footer />
     </>
   );
 };

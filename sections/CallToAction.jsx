@@ -20,8 +20,8 @@ export const CallToAction = () => {
     }));
   };
   return (
-    <section id='contact' className='pt-20 pb-10 2xl:pt-36 max-w-5xl mx-auto px-4 2xl:py-11 2xl:px-16'>
-      <div className='bg-primary rounded-[10px] pt-11 px-7 pb-12 xl:-mt-20 relative z-10 flex items-center text-center lg:text-left flex-col lg:flex-row justify-center lg:justify-between'>
+    <section id='contact' className='pt-20 2xl:pt-36 max-w-5xl mx-auto px-4 2xl:py-11 2xl:px-16'>
+      <div className='bg-primary rounded-[10px] pt-11 px-7 pb-12 xl:-mt-20 relative flex items-center text-center lg:text-left flex-col lg:flex-row justify-center lg:justify-between'>
         <h3 className='text-white  text-xl leading-tight md:leading-normal py-0 px-4 md:px-0 mb-12 lg:mb-0'>
           Contrata los mejores
         </h3>
