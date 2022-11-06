@@ -1,13 +1,32 @@
+import {useState, useEffect} from 'react';
 import {Link as ScrollLink, animateScroll as scroll} from 'react-scroll';
 
 import {MobileDrawer} from './MobileDrawer';
 import {menuItems} from './header.data';
+import {Logo} from '..';
 
 export const Header = () => {
+  const [sticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    const onScroll = e => {
+      const newSticky = window.scrollY > 30;
+      if (sticky !== newSticky) {
+        setSticky(newSticky);
+      }
+    };
+
+    document.addEventListener('scroll', onScroll);
+
+    return () => document.removeEventListener('scroll', onScroll);
+  }, [sticky]);
   return (
-    <header className='text-base py-6 w-full fixed top-0 left-0 bg-transparent transition-all shadow-sm'>
+    <header
+      className={`text-base py-6 w-full z-10 fixed top-0 left-0 bg-transparent transition-all duration-300 ${
+        sticky ? 'shadow-sm bg-white py-4' : ''
+      }`}>
       <nav className='flex items-center max-w-5xl justify-between px-3 mx-auto'>
-        <span>Arkon 🏦</span>
+        <Logo />
         <ul className='hidden md:flex'>
           {menuItems.map(({path, label}) => (
             <ScrollLink
