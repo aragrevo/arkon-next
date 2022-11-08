@@ -7,4 +7,8 @@ export const menuItems = [
     path: 'services',
     label: 'Servicios',
   },
+  {
+    path: 'gallery',
+    label: 'Galería',
+  },
 ];

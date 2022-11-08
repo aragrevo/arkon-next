@@ -22,8 +22,10 @@ export const Header = () => {
   }, [sticky]);
   return (
     <header
-      className={`text-base py-6 w-full z-10 fixed top-0 left-0 bg-transparent transition-all duration-300 ${
-        sticky ? 'shadow-sm bg-white py-4' : ''
+      className={`text-base py-6 w-full z-10 fixed top-0 left-0 transition-all duration-500 ${
+        sticky
+          ? 'transition-all duration-500 shadow-sm bg-white py-4'
+          : 'transition-all bg-transparent duration-500 shadow-none'
       }`}>
       <nav className='flex items-center max-w-5xl justify-between px-3 mx-auto'>
         <Logo />

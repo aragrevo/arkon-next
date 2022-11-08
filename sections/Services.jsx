@@ -4,8 +4,8 @@ import {ServiceCard} from '@components/index';
 const SERVICES_DATA = [
   {
     icon: '/icons/service-1-1.svg',
-    title: 'Diseño Arquitectónico',
-    text: 'Interacción con el cliente para sus necesidades',
+    title: 'Asesoría en Inversión para compra de Bienes',
+    text: 'Usos del suelo, edificabilidad, etc',
   },
   {
     icon: '/icons/service-1-2.svg',
