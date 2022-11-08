@@ -15,7 +15,7 @@ const SERVICES_DATA = [
   {
     icon: '/icons/service-1-3.svg',
     title: 'Actualización y renovación de inmuebles',
-    text: 'Adecuaciones, remodelaciones, reforzamientos estructurales, Revisión y acondicionamiento de edificaciones para uso de discapacitados',
+    text: 'Adecuaciones, remodelaciones, reforzamientos estructurales.',
   },
   {
     icon: '/icons/service-1-4.svg',
@@ -26,7 +26,7 @@ const SERVICES_DATA = [
 
 export const Services = () => {
   return (
-    <section id='services' className='pt-20 2xl:pt-36 max-w-5xl mx-auto'>
+    <section id='services' className='pt-20 2xl:pt-40 max-w-5xl mx-auto'>
       <BlockTitle slogan='Servicios' title='Conoce como podemos ayudarte' />
       <div className='grid px-4 gap-7 2xl:gap-14 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 '>
         {SERVICES_DATA.map((service, index) => (

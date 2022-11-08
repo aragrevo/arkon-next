@@ -32,19 +32,28 @@ export const Header = () => {
         <ul className='hidden md:flex'>
           {menuItems.map(({path, label}) => (
             <ScrollLink
-              className='text-base text-[#02073E] font-normal cursor-pointer leading-tight mr-12 last:mr-0 hover:text-primary transition-colors duration-500'
+              className='text-base text_secondary font-normal cursor-pointer leading-tight mr-12 last:mr-0 hover:text-primary transition-colors duration-500'
               activeClass='text-primary'
-              sx=''
               to={path}
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={0}
               duration={500}
               key={path}>
               {label}
             </ScrollLink>
           ))}
         </ul>
+        <ScrollLink
+          className='text-[15px] font-semibold h-12 rounded-[3px] tracking-widest transition-all duration-300 leading-loose cursor-pointer flex items-center justify-center px-5 border border-primary hover:bg-primary hover:text-white bg-transparent text-primary'
+          activeClass='text-primary'
+          to='contact'
+          spy={true}
+          smooth={true}
+          offset={10}
+          duration={500}>
+          Contáctanos
+        </ScrollLink>
         <MobileDrawer />
       </nav>
     </header>

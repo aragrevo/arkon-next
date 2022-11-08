@@ -11,7 +11,7 @@ export const Boost = () => {
   return (
     <section className='pt-16 lg:pt-20 xl:pt-28 max-w-5xl mx-auto px-4'>
       <div className='flex flex-wrap flex-col lg:flex-row-reverse'>
-        <div className='flex flex-grow-0 flex-shrink-0 basis-full lg:basis-1/2'>
+        <div className='flex flex-grow-0 flex-shrink-0 basis-full lg:basis-7/12'>
           <div className='w-full text-left 2xl:pt-24 2xl:pl-14'>
             <div className='text-center lg:text-left'>
               <h3 className='text-black text-xl xl:text-4xl 2xl:text-3xl leading-relaxed lg:leading-6 font-bold'>
@@ -32,7 +32,7 @@ export const Boost = () => {
             </ul>
           </div>
         </div>
-        <div className='flex flex-grow-0 flex-shrink-0 basis-full lg:basis-1/2'>
+        <div className='flex flex-grow-0 flex-shrink-0 basis-full lg:basis-5/12'>
           <Image
             className='flex relative top-0 max-w-full mix-blend-darken md:-top-10'
             width={633}
