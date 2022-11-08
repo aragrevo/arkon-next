@@ -17,7 +17,7 @@ export const Boost = () => {
               <h3 className='text-black text-xl xl:text-4xl 2xl:text-3xl leading-relaxed lg:leading-6 font-bold'>
                 Diseño Arquitectónico
               </h3>
-              <p className='text-base, lg:text-lg text-secondary, opacity-60 leading-6 lg:leading-relaxed 2xl:leading-loose py-0 px-5 lg:px-0 mt-4'>
+              <p className='text-base lg:text-lg text-secondary opacity-60 leading-6 lg:leading-relaxed 2xl:leading-loose py-0 px-5 lg:px-0 mt-4'>
                 Interacción con el cliente para sus necesidades
               </p>
             </div>
