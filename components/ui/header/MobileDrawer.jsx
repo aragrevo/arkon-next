@@ -9,7 +9,7 @@ export const MobileDrawer = () => {
 
   return (
     <div className='flex items-center justify-center shrink-0 w-6 md:hidden'>
-      <button className='flex items-center justify-center' onClick={() => setShow(true)}>
+      <button className='flex items-center justify-center text-black' onClick={() => setShow(true)}>
         <IoMdMenu size='22px' />
       </button>
       <aside
@@ -26,11 +26,11 @@ export const MobileDrawer = () => {
             <IoMdClose size='24px' color='#02073E' />
           </button>
           <Logo />
-          <ul className='flex flex-col mt-7'>
+          <ul className='flex flex-col mt-7 text-text_secondary'>
             {menuItems.map(({path, label}) => (
               <ScrollLink
                 onClick={() => setShow(false)}
-                className='text-base text_secondary font-normal cursor-pointer leading-7 py-1.5 hover:text-primary transition-colors duration-500'
+                className='text-base font-normal cursor-pointer leading-7 py-1.5 hover:text-primary transition-colors duration-500'
                 activeClass='text-primary'
                 to={path}
                 spy={true}

@@ -9,7 +9,7 @@ const BOOST_DATA = [
 
 export const Boost = () => {
   return (
-    <section className='pt-16 lg:pt-20 xl:pt-28 max-w-5xl mx-auto px-4'>
+    <section className='pt-16 lg:pt-20 xl:pt-28 max-w-5xl mx-auto px-4 bg-white'>
       <div className='flex flex-wrap flex-col lg:flex-row-reverse'>
         <div className='flex flex-grow-0 flex-shrink-0 basis-full lg:basis-7/12'>
           <div className='w-full text-left 2xl:pt-24 2xl:pl-14'>

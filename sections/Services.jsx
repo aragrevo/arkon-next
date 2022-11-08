@@ -26,7 +26,7 @@ const SERVICES_DATA = [
 
 export const Services = () => {
   return (
-    <section id='services' className='pt-20 2xl:pt-40 max-w-5xl mx-auto'>
+    <section id='services' className='pt-20 2xl:pt-40 max-w-5xl mx-auto bg-white'>
       <BlockTitle slogan='Servicios' title='Conoce como podemos ayudarte' />
       <div className='grid px-4 gap-7 2xl:gap-14 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 '>
         {SERVICES_DATA.map((service, index) => (

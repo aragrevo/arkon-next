@@ -45,7 +45,7 @@ export const Header = () => {
           ))}
         </ul>
         <ScrollLink
-          className='text-[15px] font-semibold h-12 rounded-[3px] tracking-widest transition-all duration-300 leading-loose cursor-pointer flex items-center justify-center px-5 border border-primary hover:bg-primary hover:text-white bg-transparent text-primary'
+          className='hidden md:flex text-[15px] font-semibold h-12 rounded-[3px] tracking-widest transition-all duration-300 leading-loose cursor-pointer items-center justify-center px-5 border border-primary hover:bg-primary hover:text-white bg-transparent text-primary'
           activeClass='text-primary'
           to='contact'
           spy={true}
